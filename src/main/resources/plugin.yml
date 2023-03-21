@@ -1,0 +1,13 @@
+name: SpawnPlugin
+version: '${project.version}'
+main: me.lostplugins.spawnplugin.SpawnPlugin
+api-version: 1.19
+commands:
+  setspawn:
+    description: sets the player spawn
+    usage: /<command>
+    permission: spawn.set
+    permission-message: Unknown command. Type ''/help'' for help.
+  spawn:
+    description: teleports player to spawn
+    usage: /<command>
